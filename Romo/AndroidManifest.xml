@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.romo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.facedetection" />"/>
+    
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher">
+        <activity
+            android:name="romo.RomoActivity"
+            android:label="@string/title_activity_romo"
+            android:theme="@style/RomoTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="discovery.DiscoverActivity"
+            android:label="@string/title_activity_discover"
+            android:theme="@android:style/Theme.DeviceDefault" >
+        </activity>
+        
+        <activity 
+            android:name="media.MediaActivity"
+            android:label="@string/title_activity_media"
+            android:theme="@android:style/Theme.DeviceDefault">
+        </activity>
+    </application>
+</manifest>

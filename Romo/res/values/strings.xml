@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- Activity titles -->
+    <string name="title_activity_romo">Romo</string>
+    <string name="title_activity_discover">Discover Romo</string>
+    <string name="title_activity_media">Media player</string>
+
+    <!-- Menu -->
+    <string name="action_settings">Settings</string>
+    <string name="action_service">Service</string>
+
+    <!-- listitem.xml -->
+    <string name="li_img_description">list item icon</string>
+    <string name="li_txt_title">title</string>
+    <string name="li_txt_subtitle">subtitle</string>
+
+    <!-- activity_discover.xml -->
+    <string name="title_paired_devices">PAIRED DEVICES</string>
+    <string name="title_new_devices">NEW DEVICES</string>
+    <string name="btn_discover">Discover</string>
+    
+    <!-- Romo activity -->
+    <string name="bluetooth_availability">Bluetooth not available !</string>
+    <string name="bluetooth_not_enabled">Bluetooth available but not enabled !</string>
+    <string name="camera_availability">Front camera not available</string>
+    
+    
+    <string name="img_background">Background image</string>
+</resources>

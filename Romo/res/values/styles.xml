@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- Romo activity theme -->
+    <style name="RomoTheme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:windowActionBarOverlay">true</item>
+ 	</style>
+    
+    <!-- Discover activity theme -->
+    <style name="DisTheme" parent="@android:style/Theme.DeviceDefault" />
+    
+    <!-- Horizontal line seperator style -->
+    <style name="Seperator">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#AAAAAA</item>
+    </style>    
+</resources>
